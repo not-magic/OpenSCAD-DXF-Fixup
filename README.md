@@ -3,7 +3,7 @@
 Fixes up DXF exported from OpenSCAD to make it easier to use services like SendCutSend, to allow for hardware insertion and bending.
 
 * Finds circular line groups and replaces them with DXF circles
-* Can merge another dxf that contains skinny squares, and will turn them into bend lines. The center of the square on the longest axis is used to place the line.
+* Can merge another dxf that contains skinny rectangles, and will turn them into bend lines. The center of the rectangles on the longest axis is used to place the line.
 
 ## Dependencies
 
