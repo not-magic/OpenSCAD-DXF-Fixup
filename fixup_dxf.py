@@ -105,7 +105,7 @@ for idx, group in enumerate(groups):
 	if can_be_circle:
 		circle_groups.append({
 			"center": avg_pos,
-			"radius": math.sqrt(dist0)
+			"radius": round(math.sqrt(dist0), 2)
 			})
 
 	else:
